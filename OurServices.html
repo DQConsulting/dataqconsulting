@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | DataQ Consulting</title>
+    <link rel="stylesheet" href="index_styles.css">
+     <!-- Ensure this path points to your CSS file -->
+    <style>
+        /* Inline styles for demonstration; move to styles.css in production */
+        body {
+            background-color: #f0f8ff;
+            color: #333;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        h1 {
+            color: #0056b3;
+        }
+        h2 {
+            color: #333;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .service {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 45%;
+            box-sizing: border-box;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .service h3 {
+            color: #0056b3;
+            margin-top: 0;
+        }
+        .service p {
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            .service {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+     <!-- Navigation Menu -->
+     <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="ourservices.html">Our Services</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Our Services</h1>
+        <h2>Empowering Your Business with Data-Driven Solutions</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Data Quality and Cleansing</h3>
+                <p>We ensure your data is accurate, consistent, and reliable, enabling better decision-making and operational efficiency.</p>
+            </div>
+            <div class="service">
+                <h3>Data Warehousing</h3>
+                <p>Our experts design and implement scalable data warehouses that consolidate your data for comprehensive analysis and reporting.</p>
+            </div>
+            <div class="service">
+                <h3>ETL (Extract, Transform, Load) Processes</h3>
+                <p>We develop robust ETL processes to seamlessly integrate data from various sources, ensuring it is transformed and loaded accurately.</p>
+            </div>
+            <div class="service">
+                <h3>Business Intelligence and Analytics</h3>
+                <p>Our BI solutions provide actionable insights through interactive dashboards and reports, helping you stay ahead in the market.</p>
+            </div>
+            <div class="service">
+                <h3>Data Governance</h3>
+                <p>We establish data governance frameworks that define policies and procedures, ensuring data integrity and compliance.</p>
+            </div>
+            <div class="service">
+                <h3>Data Integration</h3>
+                <p>Our data integration services connect disparate data sources, providing a unified view of your business information.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

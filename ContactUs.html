@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DataQ Consulting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f0f4f8;
+            color: #333;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        main {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+        .contact-container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .contact-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            margin: 0;
+            color: #003366;
+        }
+        .contact-details {
+            margin-bottom: 20px;
+        }
+        .contact-details p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .contact-details strong {
+            color: #003366;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+            margin-top: 5px;
+            padding: 10px;
+            width: 100%;
+        }
+        .contact-form textarea {
+            resize: vertical;
+        }
+        .contact-form button {
+            background-color: #003366;
+            border: none;
+            border-radius: 4px;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 1.1em;
+            margin-top: 20px;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+        .contact-form button:hover {
+            background-color: #0055a5;
+        }
+        .map-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .map-container iframe {
+            border: 0;
+            border-radius: 8px;
+            width: 100%;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="ourservices.html">Our Services</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <main>
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Get in Touch with DataQ Consulting</h2>
+            </div>
+            <div class="contact-details">
+                <p><strong>Email:</strong> <a href="mailto:info@dataqconsulting.com">info@dataqconsulting.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+919902031368">+91 - 9902031368</a></p>
+                <p><strong>Address:</strong> #208, 2nd Floor, Prestige Eva Mall, Brigade Road, Bangalore, Karnataka, India - 560025</p>
+            </div>
+            <!-- 
+            <div class="contact-form">
+                <form action="sendemail.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+             -->
+            </div>
+            <div class="map-container">
+                <h3>Our Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.1234567890123!2d77.609123456789!3d12.9715987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670abcd1234%3A0x56789abcdef01234!2sPrestige%20Eva%20Mall%2C%20Brigade%20Road%2C%20Bangalore%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sin!4v1616161616161!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
