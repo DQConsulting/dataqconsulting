@@ -19,15 +19,13 @@ header {
     padding: 5px 0;
 }
 
-.nav-menu {
-  padding: 5px 10px;
-  height: auto; /* or set a specific height */
-}
+
 .nav-menu {
     list-style: none;
     display: flex;
     justify-content: center;
     display: flex; 
+    height: 5px
 }
 
 .nav-menu li {
