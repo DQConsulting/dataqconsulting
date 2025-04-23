@@ -8,23 +8,16 @@ body {
     margin: 0;
     padding: 0;
 }
-/*header {
-    background-color: #003366;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;    
-}*/
+
 header {
     background-color: #0056b3;
-    padding: 5px 0;
+    padding: 10px 0;
 }
-
 
 .nav-menu {
     list-style: none;
     display: flex;
     justify-content: center;
-    height: 5px
 }
 
 .nav-menu li {
@@ -42,11 +35,6 @@ header {
     color: #ffcc00;
 }
 
-/*header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5em;
-    margin: 0;
-}*/
 main {
     margin: 20px auto;
     max-width: 800px;
