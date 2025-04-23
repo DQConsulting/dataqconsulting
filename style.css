@@ -22,9 +22,8 @@ header {
 
 .nav-menu {
     list-style: none;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
-    display: flex; 
     height: 5px
 }
 
