@@ -20,7 +20,7 @@ header {
 
 .nav-menu {
     list-style: none;
-    display: block;
+    display: flex;
     justify-content: center;
 }
 
@@ -28,7 +28,7 @@ header {
     margin: 0 10px;
 }
 
-li a {
+.nav-menu li a {
   display: block;
   color: white;
   text-align: center;
