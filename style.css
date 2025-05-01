@@ -13,10 +13,6 @@ body {
 }
 
 /* Navigation Menu */
-header {
-    background-color: #0056b3;
-    padding: -5px 0;
-}
 
 .nav-menu {
     list-style: none;
