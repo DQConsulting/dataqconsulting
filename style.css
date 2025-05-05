@@ -80,6 +80,12 @@ header {
 .nav-menu a:hover {
     color: #ffcc00;
 }
+
+.header {
+  background-color: #0056b3;
+  padding: -5px;
+  text-align: center;
+}
 */
 main {
     margin: 20px auto;
@@ -87,30 +93,12 @@ main {
     padding: 0 20px;
 }
 
-.header {
-  background-color: #0056b3;
-  padding: -5px;
-  text-align: center;
-}
-
 header {
     background-color: #0056b3;
     padding: 10px 0;
 }
 
-/*h1 {
-    color: #003366;
-    font-size: 1.8em;
-    margin-top: 0;
-    text-align: center;
-}
 
-h2 {
-    color: #003366;
-    font-size: 1.8em;
-    margin-top: 0;
-    text-align: center;
-}*/
 p {
     margin: 20px 0;
 }
