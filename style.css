@@ -94,9 +94,8 @@ main {
 }
 
 header {
-    border: red
     background-color: #0056b3;
-    padding: 1px 0;
+    padding-top: 1px;
 }
 
 
