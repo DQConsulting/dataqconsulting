@@ -93,6 +93,11 @@ main {
   text-align: center;
 }
 
+header {
+    background-color: #0056b3;
+    padding: 10px 0;
+}
+
 /*h1 {
     color: #003366;
     font-size: 1.8em;
