@@ -21,7 +21,7 @@ body {
 }
 
 .nav-menu li {
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 .nav-menu li a {
@@ -95,7 +95,7 @@ main {
 
 header {
     background-color: #0056b3;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 
