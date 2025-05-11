@@ -57,7 +57,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Overlay */
+    background-color: rgba(8, 7, 7, 0.903); /* Overlay */
 }
 
 .hero-content {
